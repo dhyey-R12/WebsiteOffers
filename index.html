@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WebsiteOffers</title>
+	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive-tabs.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<header class="site_header">
+		<div class="container">
+			<a href="index.html" class="logo">
+				<img src="images/logo.png" alt="logo image">
+			</a>
+		</div>
+	</header>
+	<section class="step_section">
+		<div class="container">
+			<div class="custom_row">
+				<div class="step_col">
+					<div class="content_card">
+						<form>
+							<div id="development_tab" class="admission_inquiry r-tabs">
+								<ul class="development_tab_title r-tabs-nav">
+									<li class="blue_arrow r-tabs-tab r-tabs-state-active">
+										<a href="#tab-1" class="r-tabs-anchor">
+											<span>01</span>
+											<p>Fill in wishes</p>
+										</a>
+									</li>
+									<li class="orange_arrow r-tabs-state-default r-tabs-tab">
+										<a href="#tab-2" class="r-tabs-anchor">
+											<span>02</span>
+											<p>Fill in data</p>
+										</a>
+									</li>
+									<li class="pink_arrow r-tabs-state-default r-tabs-tab">
+										<a href="#tab-3" class="r-tabs-anchor">
+											<span>03</span>
+											<p>Receive quotes</p>
+										</a>
+									</li>
+								</ul>
+								<div class="development_tab_content active_tab_on_load">
+									<!-- <div class="r-tabs-accordion-title r-tabs-state-active">
+										<a href="#tab-1" class="r-tabs-anchor">
+											<span>01</span>
+											<p>Fill in wishes</p>
+										</a>
+									</div> -->
+									<div id="tab-1" class="r-tabs-panel r-tabs-state-active" style="display: block;">
+										<div class="custom_row">
+											<div class="step_content_col step_content_col_align_start">
+												<p>Category</p>
+											</div>
+											<div class="step_fields_col">
+												<ul>
+													<li>
+														<label for="website">
+															<input type="radio" id="website" name="category" value="website">
+															<span>Website</span>
+														</label>
+													</li>
+													<li>
+														<label for="online">
+															<input type="radio" id="online" name="category" value="online">
+															<span>Online store</span>
+														</label>
+													</li>
+													<li>
+														<label for="marketing">
+															<input type="radio" id="marketing" name="category" value="marketing">
+															<span>Marketing</span>
+														</label>
+													</li>
+													<li>
+														<label for="seo">
+															<input type="radio" id="seo" name="category" value="seo">
+															<span>SEO</span>
+														</label>
+													</li>
+													<li>
+														<label for="else">
+															<input type="radio" id="else" name="category" value="else">
+															<span>Else</span>
+															<input type="text">
+														</label>
+													</li>
+												</ul>
+											</div>
+											<div class="step_content_col">
+												<p>Name</p>
+											</div>
+											<div class="step_fields_col">
+												<input type="text">
+											</div>
+											<div class="step_content_col">
+												<p>Phone number</p>
+											</div>
+											<div class="step_fields_col">
+												<input type="text">
+											</div>
+											<div class="step_content_col">
+												<p>Email</p>
+											</div>
+											<div class="step_fields_col">
+												<input type="Email">
+											</div>
+											<div class="step_content_col step_content_col_align_start">
+												<p>Describe your assignment</p>
+											</div>
+											<div class="step_fields_col">
+												<textarea></textarea>
+												<p>Hoe specifiek jouw omschrijving, hoe accurater de offertes zullen zijn</p>
+											</div>
+										</div>
+										<div class="two_btn_div">
+											<span class="next_step">Next step</span>
+										</div>
+									</div>
+								</div>
+								<div class="development_tab_content">
+									<!-- <div class="r-tabs-accordion-title">
+										<a href="#tab-2" class="r-tabs-anchor">
+											<span>02</span>
+											<p>Fill in data</p>
+										</a>
+									</div> -->
+									<div id="tab-2" class="r-tabs-state-default r-tabs-panel">
+										<div class="custom_row">
+											<div class="step_content_col step_content_col_align_start">
+												<p>Budget</p>
+											</div>
+											<div class="step_fields_col">
+												<ul>
+													<li>
+														<label for="100euros">
+															<input type="radio" id="100euros" name="budget" value="100euros">
+															<span>100 to 300 euros</span>
+														</label>
+													</li>
+													<li>
+														<label for="300euros">
+															<input type="radio" id="300euros" name="budget" value="300euros">
+															<span>300 to 750 euros</span>
+														</label>
+													</li>
+													<li>
+														<label for="750euros">
+															<input type="radio" id="750euros" name="budget" value="750euros">
+															<span>750 to 2000 euros</span>
+														</label>
+													</li>
+													<li>
+														<label for="2000">
+															<input type="radio" id="2000" name="budget" value="2000">
+															<span>2000+</span>
+														</label>
+													</li>
+													<li>
+														<label for="advise">
+															<input type="radio" id="advise" name="budget" value="advise">
+															<span>or advise me</span>
+														</label>
+													</li>
+												</ul>
+											</div>
+											<div class="step_content_col">
+												<p>Company name (optional)</p>
+											</div>
+											<div class="step_fields_col">
+												<input type="text">
+											</div>
+											<div class="step_content_col">
+												<p>Website URL (optinal)</p>
+											</div>
+											<div class="step_fields_col">
+												<input type="text">
+											</div>
+										</div>
+										<div class="two_btn_div">
+											<span class="prev_step">Previous Step</span>
+											<span class="next_step">Next Step</span>
+										</div>
+									</div>
+								</div>
+								<div class="development_tab_content">
+									<!-- <div class="r-tabs-accordion-title">
+										<a href="#tab-3" class="r-tabs-anchor">
+											<span>03</span>
+											<p>Receive quotes</p>
+										</a>
+									</div> -->
+									<div id="tab-3" class="r-tabs-state-default r-tabs-panel">
+										<div class="tab_content">
+											<img src="images/icon_mail.png" alt="icon">
+											<h2>Thank you for your application!</h2>
+											<p>Your application has been received and is being assessed, you have also received an email to verify your email address. </p>
+										</div>
+										<div class="two_btn_div">
+											<span class="prev_step"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="content_col">
+					<div class="content_card">
+						<h2>Why WebsiteOffers.nl?</h2>
+						<div class="card_content">
+							<ul class="card_content_list">
+								<li>
+									<img src="images/icon_number.png" alt="icon">
+									<p>Receive 3 quotes within 24 hours</p>
+								</li>
+								<li>
+									<img src="images/icon_docu.png" alt="icon">
+									<p>22,000+ Quotes Requested</p>
+								</li>
+								<li>
+									<img src="images/icon_clock.png" alt="icon">
+									<p>Last request was 6 hours ago</p>
+								</li>
+								<li>
+									<img src="images/icon_circle.png" alt="icon">
+									<p>Compare and save up to 40%</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="content_card">
+						<h2>Our testimonials</h2>
+						<div class="card_content">
+							<div class="testimonials_slider">
+								<div>
+									<div class="testimonials_box">
+										<p>Kenneth Wolfs</p>
+										<ul>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+										</ul>
+										<p>Good communication! Delivers the leads quickly. If you need help, you can always contact them! Highly recommended!</p>
+									</div>
+								</div>
+								<div>
+									<div class="testimonials_box">
+										<p>Kenneth Wolfs</p>
+										<ul>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+										</ul>
+										<p>Good communication! Delivers the leads quickly. If you need help, you can always contact them! Highly recommended!</p>
+									</div>
+								</div>
+								<div>
+									<div class="testimonials_box">
+										<p>Kenneth Wolfs</p>
+										<ul>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+										</ul>
+										<p>Good communication! Delivers the leads quickly. If you need help, you can always contact them! Highly recommended!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="site_footer">
+		<div class="container">
+			<a href="index.html">
+				<img src="images/logo.png" alt="logo">
+			</a>
+			<p>© 2022 WebsiteOffers.nl. All rights reserved.</p>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.responsiveTabs.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/fonts-awesome-5.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
